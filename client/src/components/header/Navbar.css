@@ -10,7 +10,9 @@
     border-bottom: 1px solid #808080c0;
    
 }
-
+.navbar{
+    background-color: #2f7187;
+}
 #homeContactCard{
     display: flex;
     align-items: center;
@@ -52,18 +54,32 @@
     font-weight: 700;
 }
 #navLinks{
-    color: white;
-    margin: 0px 20px;
+    color: antiquewhite;
+    margin: 0px 15px;
 }
 #navBtn{
     display: flex;
     align-items: center;
     justify-content: center;
 }
+#homeContactSocialLink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+#homeContactSocialLink i{
+    color: antiquewhite;
+    font-size: 20px;
+    margin: 0px 8px;
+}
 #navBtn button{
     padding: 8px 25px;
-    border: 1px solid gray;
+    border: 2px solid antiquewhite;
     border-radius: 4px;
     color: antiquewhite;
-    background-color: goldenrod;
+    background-color: transparent;
+}
+#navBtn button:hover{
+    color: gold;
 }
